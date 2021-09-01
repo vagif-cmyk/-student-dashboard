@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="id">Унив. имени Йодова Усу Хабибовича</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script defer src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <script defer src="./js/tippy.js"></script>
+  <script defer src="./js/table.js"></script>
+</head>
+
+<body>
+  <div class="img book"></div>
+  <div class="img lastich"></div>
+  <main>
+    <section class="search container m-t">
+      <div class="filters">
+        <input type="text" class="filter" placeholder="Искать по ФИО">
+        <input type="text" class="filter" placeholder="Искать по факультету">
+        <input type="text" class="filter" placeholder="Искать по году начала обучения">
+        <input type="text" class="filter" placeholder="Искать по году окончания обучения">
+      </div>
+    </section>
+    <section data-simplebar class="container max-h">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th id="name" data-target="sort">ФИО</th>
+            <th id="faculty" data-target="sort">Факультет</th>
+            <th id="date" data-target="sort">ДР и возраст</th>
+            <th id="year" data-target="sort">Годы обучения</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </section>
+    <section class="container">
+      <form action="" class="form">
+        <input required type="text" placeholder="Имя*" class="form__input">
+        <input required type="text" placeholder="Фамилия*" class="form__input">
+        <input required type="text" placeholder="Отчество*" class="form__input">
+        <input required type="date" placeholder="Дата рождения*" class="form__input">
+        <input required type="number" min="2000" placeholder="Год начала обучения*" class="form__input">
+        <input required type="text" placeholder="Факультет*" class="form__input">
+        <div class="error-trim">Поле формы не может быть пустым</div>
+        <div class="error-date">Год рождения должен находится в диапазоне от 1900 года до текущего года</div>
+        <div class="error-start">Год начала обучения должен находится в диапазоне от 2000 года до текущего года</div>
+        <button type="submit" class="btn">Оправить данные</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>

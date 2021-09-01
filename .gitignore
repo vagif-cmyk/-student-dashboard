@@ -1,0 +1,9 @@
+.idea
+*.json
+.gitlab-ci.yml
+.eslintrc.js
+.editorconfig
+node_modules
+/.vscode/
+/dist
+

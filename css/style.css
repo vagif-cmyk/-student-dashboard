@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  transition: background-color .2s ease;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}
+
+.book {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background: url(../img/book.jpg) center no-repeat;
+  background-size: cover;
+  transform: rotate(-50deg);
+}
+
+.lastich {
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+  background: url(../img/lastich.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-bottom: 10px;
+}
+
+.max-h {
+  max-height: 400px;
+}
+
+.form__input {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.m-t {
+  margin-top: 20px;
+}
+
+.error-trim, .error-date, .error-start {
+  display: none;
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: red;
+}
+
+thead {
+  cursor: pointer;
+}
+
+.filter {
+  display: block;
+  width: 30%;
+  height: 25px;
+  margin-bottom: 2px;
+  padding: 0 5px;
+  font-size: 18px;
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+
+.filter::placeholder {
+  padding-left: 5px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.table td {
+  padding: 6px;
+}
+
+.form__input::placeholder {
+  padding: 5px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.form__input {
+  width: 30%;
+  color: rgb(51, 51, 51);
+  border: solid 1px gray;
+}
+
+.btn {
+  background-color: rgb(252, 252, 138);
+  margin-left: 60px;
+}
+
+.border-red {
+  border: 2px solid red;
+}
