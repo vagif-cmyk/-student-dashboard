@@ -90,10 +90,11 @@ thead {
   color: rgb(51, 51, 51);
   border: solid 1px gray;
 }
-
+.btn-box {
+  text-align: center;
+}
 .btn {
   background-color: rgb(252, 252, 138);
-  margin-left: 60px;
 }
 
 .border-red {

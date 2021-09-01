@@ -1,3 +1,25 @@
 @media (max-width: 1550px) {
-  
+  .book {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .lastich {
+    display: none;
+  }
+  .form__input, .filter {
+    width: 70%;
+  }
+  .table {
+    font-size: 16px;
+  }
+  .table td, .table th {
+    padding: 6px;
+  }
+}
+@media (max-width: 400px) {
+  .form__input, .filter {
+    width: 100%;
+  }
 }
