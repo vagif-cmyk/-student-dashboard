@@ -1,5 +1,7 @@
 # -student-dashboard
 
+Поюзать можно здесь https://vagif-cmyk.github.io/-student-dashboard/
+
 Небольшой проект в котором реализована панель управления студентами.
 Основной язык JavaScript.
 
